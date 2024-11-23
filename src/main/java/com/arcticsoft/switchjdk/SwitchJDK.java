@@ -1,6 +1,7 @@
 package com.arcticsoft.switchjdk;
 
-import java.nio.file.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.Scanner;
 
 public class SwitchJDK {
@@ -19,7 +20,7 @@ public class SwitchJDK {
 
 			var choice = scanner.nextLine();
 			switch (choice) {
-				case "q" -> System.out.println("Exiting program.");
+				case "q" ->	System.out.println("Exiting program.");
 				default -> {
 					var selection = Integer.parseInt(choice);
 					if (selection <= jdks.size()) {
