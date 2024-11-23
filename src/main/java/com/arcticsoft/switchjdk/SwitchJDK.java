@@ -5,6 +5,7 @@ import java.nio.file.Path;
 import java.util.Scanner;
 
 public class SwitchJDK {
+
 	private static final Scanner scanner = new Scanner(System.in);
 
 	public static void main(String[] args) {
@@ -20,7 +21,7 @@ public class SwitchJDK {
 
 			var choice = scanner.nextLine();
 			switch (choice) {
-				case "q" ->	System.out.println("Exiting program.");
+				case "q" -> System.out.println("Exiting program.");
 				default -> {
 					var selection = Integer.parseInt(choice);
 					if (selection <= jdks.size()) {
