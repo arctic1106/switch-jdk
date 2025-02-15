@@ -1,4 +1,4 @@
-package com.arcticsoft.switchjdk;
+package dev.arcticsoft.switchjdk;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
