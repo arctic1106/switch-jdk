@@ -10,7 +10,7 @@
 	<version>1.1.0</version>
 
 	<properties>
-		<maven.compiler.release>23</maven.compiler.release>
+		<maven.compiler.release>24</maven.compiler.release>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
@@ -19,7 +19,7 @@
 			<plugin>
 				<groupId>org.graalvm.buildtools</groupId>
 				<artifactId>native-maven-plugin</artifactId>
-				<version>0.10.5</version>
+				<version>0.10.6</version>
 				<configuration>
 					<mainClass>dev.arcticsoft.switchjdk.SwitchJDK</mainClass>
 				</configuration>
